@@ -18,6 +18,5 @@ public class Main {
         
         for(int i = 1; i <= Math.abs(n-m); i++)
             System.out.println(lowest+i);
-    
     }
 }
