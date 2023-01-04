@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main{
+class oddities{
     public static void main(String[] args){
         int n, x;
         Scanner scan = new Scanner(System.in);
@@ -13,7 +13,6 @@ class Main{
                 System.out.println(x + " is even");
             else
                 System.out.println(x + " is odd");
-
         }
     }
 }
