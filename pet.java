@@ -27,6 +27,7 @@ class pet{
             }
         }
         
+        
         System.out.println(arr.indexOf(max) + " " + max);
     }
 }
