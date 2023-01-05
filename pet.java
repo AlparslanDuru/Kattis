@@ -4,12 +4,12 @@ import java.util.Arrays;
 class pet{
     public static void main(String[] args){
         
-        int n, max=0;
+        int n=0, max=0;
         int[] arr = new int[5];
         
         Scanner scan = new Scanner(System.in);
         
-        for (int i=1; i<6; i++)
+        for (int i=0; i<5; i++)
         {
             for (int j=0; j<4; j++)
             {
@@ -23,11 +23,12 @@ class pet{
         {
             if (i>max)
             {
-                max = arr[i];
+                max = i;
             }
         }
         
-        
-        System.out.println(arr.indexOf(max) + " " + max);
+        int getArrayIndex = Arrays.asList(arr).indexOf(max);
+
+        System.out.println(getArrayIndex + " " + max);
     }
 }
